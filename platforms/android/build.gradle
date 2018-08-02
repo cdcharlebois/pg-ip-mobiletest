@@ -95,6 +95,7 @@ ext {
 apply from: "cordova-build-architecture/mobiletest114-architecture.gradle"
 apply from: "phonegap-plugin-barcodescanner/mobiletest114-barcodescanner.gradle"
 apply from: "phonegap-plugin-push/mobiletest114-push.gradle"
+apply from: "ch.codeworx.cordova.plugin.barcodescanner.emdk/mobiletest114-extras.gradle"
 // PLUGIN GRADLE EXTENSIONS END
 
 def hasBuildExtras = file('build-extras.gradle').exists()

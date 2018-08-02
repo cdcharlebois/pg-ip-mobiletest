@@ -660,6 +660,14 @@ module.exports = [
     "clobbers": [
       "PushNotification"
     ]
+  },
+  {
+    "id": "ch.codeworx.cordova.plugin.barcodescanner.emdk.EmdkBarcode",
+    "file": "plugins/ch.codeworx.cordova.plugin.barcodescanner.emdk/www/EmdkBarcode.js",
+    "pluginId": "ch.codeworx.cordova.plugin.barcodescanner.emdk",
+    "clobbers": [
+      "emdkBarcode"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -699,7 +707,8 @@ module.exports.metadata =
   "phonegap-plugin-barcodescanner": "8.0.0",
   "cordova-plugin-geolocation": "2.2.0",
   "cordova-plugin-media": "2.3.0",
-  "phonegap-plugin-push": "1.5.3"
+  "phonegap-plugin-push": "1.5.3",
+  "ch.codeworx.cordova.plugin.barcodescanner.emdk": "0.1.0"
 };
 // BOTTOM OF METADATA
 });

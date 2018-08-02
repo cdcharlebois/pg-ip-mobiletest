@@ -136,4 +136,7 @@
     <preference name="buildArchitecture" value="arm" />
     <preference name="android-minSdkVersion" value="19" />
     <preference name="android-targetSdkVersion" value="27" />
+    <feature name="EmdkBarcode">
+        <param name="android-package" value="ch.codeworx.cordova.plugin.barcodescanner.emdk.EmdkBarcode" />
+    </feature>
 </widget>

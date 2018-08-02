@@ -288,5 +288,13 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "ch.codeworx.cordova.plugin.barcodescanner.emdk": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/DavidTalamona/Cordova-Plugin-BarcodeScanner-EMDK.git"
+    },
+    "is_top_level": true,
+    "variables": {}
   }
 }

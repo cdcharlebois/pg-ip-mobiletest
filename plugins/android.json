@@ -112,6 +112,9 @@
     },
     "phonegap-plugin-push": {
       "PACKAGE_NAME": "io.mxapps.mobiletest114"
+    },
+    "ch.codeworx.cordova.plugin.barcodescanner.emdk": {
+      "PACKAGE_NAME": "io.mxapps.mobiletest114"
     }
   },
   "dependent_plugins": {}
